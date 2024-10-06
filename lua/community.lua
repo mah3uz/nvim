@@ -5,19 +5,16 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
 
   -- import/override with your plugins folder
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   --
   -- UI
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
-  { import = "astrocommunity.recipes.telescope-nvchad-theme" },
-
-  -- Utility
+  -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
   { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.recipes.telescope-nvchad-theme" },
 
   -- Language
   { import = "astrocommunity.pack.ansible" },
@@ -27,6 +24,7 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.laravel" },
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.mdx" },
   { import = "astrocommunity.pack.php" },
