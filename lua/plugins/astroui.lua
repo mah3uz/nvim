@@ -61,9 +61,9 @@ return {
         TabLineSel = { bg = "none" },
         TabLineFill = { bg = "none" },
         -- Cursor
-        CursorLineNr = { bg = "none" },
-        CursorLine = { bg = "none" },
-        ColorColumn = { bg = "none" },
+        -- CursorLineNr = { bg = "none" },
+        -- CursorLine = { bg = "none" },
+        -- ColorColumn = { bg = "none" },
         -- Pmenu
         Pmenu = { bg = "none" },
         PmenuSel = { bg = "none" },

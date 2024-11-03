@@ -27,6 +27,7 @@ return {
       opt = { -- vim.opt.<key>
         relativenumber = true, -- sets vim.opt.relativenumber
         number = true, -- sets vim.opt.number
+        cursorline = true, -- highlight current line
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
@@ -47,7 +48,7 @@ return {
         -- Open Dashboard when all tab are closed
         ["<Leader>c"] = {
           function()
-            local bufs = vim.fn.getbufinfo { buflisted = true }
+            local bufs = vim.fn.getbufinfo { buflisted = 1 }
             require("astrocore.buffer").close(0)
             if require("astrocore").is_available "alpha-nvim" and not bufs[2] then
               require("alpha").start()
