@@ -9,12 +9,19 @@ return {
   -- import/override with your plugins folder
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   --
-  -- UI
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
-  { import = "astrocommunity.utility.noice-nvim" },
-  -- { import = "astrocommunity.recipes.telescope-nvchad-theme" },
+ -- Colorscheme
+ { import = "astrocommunity.colorscheme.catppuccin" },
+ { import = "astrocommunity.colorscheme.everforest" },
+ { import = "astrocommunity.colorscheme.gruvbox-nvim" },
+ { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+ { import = "astrocommunity.colorscheme.nord-nvim" },
+ { import = "astrocommunity.colorscheme.rose-pine" },
+ { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+
+ -- UI
+ { import = "astrocommunity.utility.noice-nvim" },
+ -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+ -- { import = "astrocommunity.recipes.telescope-nvchad-theme" },
 
   -- Language
   { import = "astrocommunity.pack.ansible" },
